@@ -38,7 +38,13 @@ class MainActivity : AppCompatActivity() {
     var list2: MutableList<Int> = mutableListOf(10, 20, 30, 40, 50)
     list2.add(60)
     Log.d("list", "mutablelist${list2}")
-    //loop
+    //loop for
+    // for
+    for( i in 1..100){}
+    for( i in 1 until 100){}
+    for(x in 2..10 step 2){}
+    for(x in 10 downTo 1){}
+
     for (index in 0 until list2.size) {
       Log.d("list", "set ${list2.get(index)}입니다.")
     }
